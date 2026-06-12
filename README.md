@@ -10,7 +10,7 @@
 ---
 
 ## 🎬 Project Demo Showcase
-> **Real-time multi-object (Bus, Truck, Car) detection and high-speed tracking demonstration using the CoreML-optimized model.**
+> **Demonstrating real-time multi-object (Bus, Truck, Car) detection and high-speed tracking, validated using live, real-world CCTV footage from the Wongok Sleep Rest Area on the Gyeongbu Expressway (KEC Suwon Branch jurisdiction, Seoul/Busan direction).**
 
 <div align="center">
   <img src="visualization/cctv.gif" width="50%" alt="YOLOv8 CoreML Real-time Tracking Demo">
