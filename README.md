@@ -138,5 +138,5 @@ Results of detecting multiple objects at the bounding box level within actual te
   * The original dataset utilized for training the multi-vehicle detection model.
 * **Real-world CCTV Inference Video:** [Korea Expressway Corporation RoadPlus](https://www.roadplus.co.kr/main/main.do)
   * Real-time CCTV footage utilized to test the model's performance in a real-world deployment scenario.
-  * **Test Location:** Gyeongbu Expressway, Korea Expressway Corporation Suwon Branch jurisdiction.
+  * **Demo Location:** Gyeongbu Expressway, Korea Expressway Corporation Suwon Branch jurisdiction (Won-gok Sleep Rest Area, near Anseong JC, Seoul/Busan direction).
 
