@@ -62,19 +62,25 @@
 ---
 
 ## 5. Training Metrics & Visualizations
-에포크 최적화 과정에서 도출된 하이퍼파라미터 수렴 및 모델 평가지표 시각화 결과입니다. YOLOv8이 자체 생성하는 검증 파일(`results.png`, `PR_curve.png` 등)을 기준으로 매핑했습니다.
+에포크 최적화 과정에서 도출된 하이퍼파라미터 수렴 및 모델 평가지표 시각화 결과입니다. 모든 이미지 파일은 `visualization` 폴더 내부의 실제 경로를 매핑했습니다.
 
 <div align="center">
-  <img src="visualization/results.png" width="100%" alt="Training Results">
+  <img src="visualization/Bounding_Box_Loss_Convergence.png" width="48%" alt="Box Loss">
+  <img src="visualization/Classification_Loss_Convergence.png" width="48%" alt="Cls Loss">
 </div>
 <br>
 <div align="center">
-  <img src="visualization/PR_curve.png" width="48%" alt="Precision Recall Curve">
-  <img src="visualization/confusion_matrix.png" width="48%" alt="Confusion Matrix">
+  <img src="visualization/Distribution_Focal_Loss_Convergence.png" width="48%" alt="DFL Loss">
+  <img src="visualization/Learning_Rate_Scheduling.png" width="48%" alt="LR Scheduling">
+</div>
+<br>
+<div align="center">
+  <img src="visualization/Validation_Precision_Recall.png" width="48%" alt="Precision Recall">
+  <img src="visualization/Validation_mAP.png" width="48%" alt="mAP Score">
 </div>
 
-* **Loss Convergence:** `results.png`의 학습 지표에서 볼 수 있듯, Bounding Box, Classification, DFL의 Train/Val 곡선이 이격 없이 안정적으로 하향 수렴하며 이상적인 성능을 보입니다.
-* **Validation Metrics:** `PR_curve.png`를 통해 Precision과 Recall 밸런스를 확인하였으며, 모델의 판별 신뢰성을 시각적으로 검증했습니다.
+* **Loss Convergence:** Bounding Box, Classification, DFL(Distribution Focal Loss)의 Train/Val 곡선이 이격 없이 안정적으로 하향 수렴하며 이상적인 일반화 성능 달성.
+* **Validation Metrics:** Precision과 Recall의 밸런스가 균형 있게 상승하였으며, 최종 mAP@0.50 지표가 최상위권에 안착하여 판정 모델로서의 높은 신뢰성 검증.
 
 ---
 
