@@ -13,7 +13,7 @@
 > **CoreML 기반 경량화 모델의 실시간 다중 객체(Bus, Truck, Car) 탐지 및 고속 추적(Tracking) 시연**
 
 <div align="center">
-  <video src="https://github.com/gyuminkang/yolo-vision-multi-inspection-coreml/blob/main/visualization/cctv.mp4?raw=true" width="100%" autoplay loop muted playsinline></video>
+  <img src="visualization/cctv.gif" width="50%" alt="YOLOv8 CoreML Real-time Tracking Demo">
 </div>
 
 ---
