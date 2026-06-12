@@ -1,4 +1,4 @@
-# 🚘 YOLO-Vision-Multi-Inspection-CoreML
+# 🚘 YOLO-Vision: Real-Time Multi-Vehicle Analysis & CoreML Acceleration
 > **YOLOv8 및 CoreML/ONNX를 활용한 다중 객체 비전 분석 및 결함 탐지 자동화 파이프라인**
 > Apple Silicon(MPS) 환경에서의 모델 최적화(Finetuning)부터 Edge Device 배포를 위한 파이프라인 구축 프로젝트입니다.
 
