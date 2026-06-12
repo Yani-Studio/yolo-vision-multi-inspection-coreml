@@ -65,18 +65,18 @@
 에포크 최적화 과정에서 도출된 하이퍼파라미터 수렴 및 모델 평가지표 시각화 결과입니다. 모든 이미지 파일은 `visualization` 폴더 내부의 실제 경로를 매핑했습니다.
 
 <div align="center">
-  <img src="visualization/Bounding_Box_Loss_Convergence.png" width="48%" alt="Box Loss">
-  <img src="visualization/Classification_Loss_Convergence.png" width="48%" alt="Cls Loss">
+  <img src="visualization/1_Bounding_Box_Loss_Convergence.png" width="48%" alt="Box Loss">
+  <img src="visualization/2_Classification_Loss_Convergence.png" width="48%" alt="Cls Loss">
 </div>
 <br>
 <div align="center">
-  <img src="visualization/Distribution_Focal_Loss_Convergence.png" width="48%" alt="DFL Loss">
-  <img src="visualization/Learning_Rate_Scheduling.png" width="48%" alt="LR Scheduling">
+  <img src="visualization/3_Distribution_Focal_Loss_Convergence.png" width="48%" alt="DFL Loss">
+  <img src="visualization/6_Learning_Rate_Scheduling.png" width="48%" alt="LR Scheduling">
 </div>
 <br>
 <div align="center">
-  <img src="visualization/Validation_Precision_Recall.png" width="48%" alt="Precision Recall">
-  <img src="visualization/Validation_mAP.png" width="48%" alt="mAP Score">
+  <img src="visualization/4_Validation_Precision_Recall.png" width="48%" alt="Precision Recall">
+  <img src="visualization/5_Validation_mAP.png" width="48%" alt="mAP Score">
 </div>
 
 * **Loss Convergence:** Bounding Box, Classification, DFL(Distribution Focal Loss)의 Train/Val 곡선이 이격 없이 안정적으로 하향 수렴하며 이상적인 일반화 성능 달성.
