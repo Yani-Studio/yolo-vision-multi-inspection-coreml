@@ -13,19 +13,8 @@
 > **Real-time multi-object (Bus, Truck, Car) detection and high-speed tracking demonstration using the CoreML-optimized model.**
 
 <div align="center">
-  <img src="visualization/cctv.gif" width="100%" alt="YOLOv8 CoreML Real-time Tracking Demo">
+  <img src="visualization/cctv.gif" width="50%" alt="YOLOv8 CoreML Real-time Tracking Demo">
 </div>
-
----
-
-## 📑 Table of Contents
-1. [Data Preprocessing & Class Unification (`checking.ipynb`)](#1-data-preprocessing--class-unification)
-2. [Image Size Fine-Tuning Benchmarking (`Size_finetune.ipynb`)](#2-image-size-fine-tuning-benchmarking)
-3. [Epoch Fine-Tuning & Tracking (`Epoch_finetune.ipynb`)](#3-epoch-fine-tuning--tracking)
-4. [Architecture Benchmarking & CoreML Export (`run.ipynb`)](#4-architecture-benchmarking--coreml-export)
-5. [Training Metrics & Visualizations](#5-training-metrics--visualizations)
-6. [Final Inference Case Study](#6-final-inference-case-study)
-7. [References & Data Sources](#7-references--data-sources)
 
 ---
 
