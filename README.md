@@ -16,15 +16,6 @@
   <img src="visualization/cctv.gif" width="50%" alt="YOLOv8 CoreML Real-time Tracking Demo">
 </div>
 
----
-
-## 📑 Table of Contents
-1. [Data Preprocessing (`checking.ipynb`)](#1-data-preprocessing)
-2. [Image Size Fine-Tuning (`Size_finetune.ipynb`)](#2-image-size-fine-tuning)
-3. [Epoch Fine-Tuning & Tracking (`Epoch_finetune.ipynb`)](#3-epoch-fine-tuning--tracking)
-4. [Model Benchmarking & Export (`run.ipynb`)](#4-model-benchmarking--export)
-5. [Training Metrics & Visualizations](#5-training-metrics--visualizations)
-6. [Final Inference Case Study](#6-final-inference-case-study)
 
 ---
 
