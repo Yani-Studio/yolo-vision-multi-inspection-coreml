@@ -12,7 +12,9 @@
 ## 🎬 Project Demo Showcase
 > **CoreML 기반 경량화 모델의 실시간 다중 객체(Bus, Truck, Car) 탐지 및 고속 추적(Tracking) 시연**
 
-![YOLOv8 CoreML Real-time Tracking Demo](visualization/demo_showcase.gif)
+<div align="center">
+  <img src="visualization/cctv.gif" width="100%" alt="YOLOv8 CoreML Real-time Tracking Demo">
+</div>
 
 ---
 
@@ -60,19 +62,22 @@
 ---
 
 ## 5. Training Metrics & Visualizations
-에포크 최적화 과정에서 도출된 하이퍼파라미터 수렴 및 모델 평가지표 시각화 결과입니다. 모든 이미지 파일은 `visualization` 폴더 내부의 실제 경로를 매핑했습니다.
+에포크 최적화 과정에서 도출된 하이퍼파라미터 수렴 및 모델 평가지표 시각화 결과입니다.
 
-### Loss Convergence
-![Box Loss](visualization/Bounding_Box_Loss_Convergence.png)
-![Cls Loss](visualization/Classification_Loss_Convergence.png)
-
-### Distribution & Learning Rate
-![DFL Loss](visualization/Distribution_Focal_Loss_Convergence.png)
-![LR Scheduling](visualization/Learning_Rate_Scheduling.png)
-
-### Validation Metrics
-![Precision Recall](visualization/Validation_Precision_Recall.png)
-![mAP Score](visualization/Validation_mAP.png)
+<div align="center">
+  <img src="visualization/Bounding_Box_Loss_Convergence.png" width="48%" alt="Box Loss">
+  <img src="visualization/Classification_Loss_Convergence.png" width="48%" alt="Cls Loss">
+</div>
+<br>
+<div align="center">
+  <img src="visualization/Distribution_Focal_Loss(DFL)_Convergence.png" width="48%" alt="DFL Loss">
+  <img src="visualization/Learning_Rate_Scheduling.png" width="48%" alt="LR Scheduling">
+</div>
+<br>
+<div align="center">
+  <img src="visualization/Validation_Metrics_Precision&_Recall.png" width="48%" alt="Precision Recall">
+  <img src="visualization/Validation_Metrics_Mean_Average_Precision(mAP).png" width="48%" alt="mAP Score">
+</div>
 
 * **Loss Convergence:** Bounding Box, Classification, DFL(Distribution Focal Loss)의 Train/Val 곡선이 이격 없이 안정적으로 하향 수렴하며 이상적인 일반화 성능 달성.
 * **Validation Metrics:** Precision과 Recall의 밸런스가 균형 있게 상승하였으며, 최종 mAP@0.50 지표가 최상위권에 안착하여 판정 모델로서의 높은 신뢰성 검증.
@@ -82,7 +87,9 @@
 ## 6. Final Inference Case Study
 경량화 및 하드웨어 셋업이 완료된 CoreML 최적화 가중치를 활용하여 실제 테스트 셋 이미지 내 다중 객체를 바운딩 박스 단위로 판정한 결과입니다.
 
-![CoreML Detection Result Analysis](visualization/CoreML_Detection_Best_Examples.png)
+<div align="center">
+  <img src="visualization/CoreML_Detection_Best_Examples_with_Bus_Truck_and_Car.png" width="100%" alt="CoreML Detection Result Analysis">
+</div>
 
 ---
 **👨‍💻 Author:** [본인 영문 이름 또는 깃허브 닉네임]  
