@@ -7,7 +7,7 @@
 ![PyTorch](https://img.shields.io/badge/PyTorch-MPS_Support-EE4C2C.svg)
 ![CoreML](https://img.shields.io/badge/CoreML-Apple_Neural_Engine-black.svg)
 ---
-⚠️ Copyright Notice Copyright (c) 2026 Kang Gyu Min. All rights reserved.
+> ⚠️ Copyright Notice Copyright (c) 2026 Kang Gyu Min. All rights reserved.
 ---
 
 ## 🎬 Project Demo Showcase
