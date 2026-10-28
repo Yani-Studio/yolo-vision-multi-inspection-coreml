@@ -1,13 +1,25 @@
 # 🚘 YOLO-Vision: Real-Time Multi-Vehicle Analysis & CoreML Acceleration
-> **Real-Time Multi-Vehicle Simultaneous Analysis & Extreme Inference Acceleration Pipeline via CoreML**
-> A high-precision vision inspection project covering model optimization (Fine-tuning) in an Apple Silicon (MPS) environment to minimizing inference latency on Edge Devices using the Apple Neural Engine (ANE).
 
-![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
-![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-yellow.svg)
-![PyTorch](https://img.shields.io/badge/PyTorch-MPS_Support-EE4C2C.svg)
-![CoreML](https://img.shields.io/badge/CoreML-Apple_Neural_Engine-black.svg)
+> **Real-Time Multi-Vehicle Simultaneous Analysis & Extreme Inference Acceleration Pipeline via CoreML.**  
+> A high-precision vision inspection project covering model optimization (Fine-tuning) in an Apple Silicon (MPS) environment to minimize inference latency on Edge Devices using the Apple Neural Engine (ANE).
+
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23740956-007EC6?style=flat)](https://doi.org/10.5281/zenodo.23740956)
+![Release](https://img.shields.io/badge/Release-v1.0.0-2ea44f?style=flat&logo=github&logoColor=white&labelColor=555555)
+![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=flat&logo=python&logoColor=white&labelColor=555555)
+![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-EAA800?style=flat&labelColor=555555)
+![PyTorch](https://img.shields.io/badge/PyTorch-MPS%20Support-EE4C2C?style=flat&logo=pytorch&logoColor=white&labelColor=555555)
+![CoreML](https://img.shields.io/badge/CoreML-Apple%20Neural%20Engine-black?style=flat&logo=apple&logoColor=white&labelColor=555555)
+
 ---
-> ⚠️ Copyright (c) 2026 Kang Gyu Min. All rights reserved.
+
+> [!WARNING]
+> **[Intellectual Property & Authorized Evaluation Notice]**
+> 
+> * The source code, architecture, and associated assets in this repository are permanently archived with an official Digital Object Identifier (DOI: [10.5281/zenodo.23740956](https://doi.org/10.5281/zenodo.23740956)) via CERN/Zenodo.
+> * Access to this repository is granted strictly for authorized review and technical evaluation purposes.
+> * Unauthorized copying, reverse engineering, redistribution, commercial utilization, derivative work creation, or appropriation of model weights without explicit prior written consent from the author is strictly prohibited.
+> * Copyright (c) 2026 Kang Gyu Min. All rights reserved.
+
 ---
 
 ## 🎬 Project Demo Showcase
